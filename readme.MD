@@ -122,7 +122,3 @@ Each event ingested into Orb has the following shape:
 python3 clean_ach_csv.py raw_data.csv cleaned_data.csv
 python3 ingest_to_orb.py cleaned_data.csv YOUR_ORB_API_KEY
 ```
-
-## Security Note
-
-Never commit your Orb API key to version control. Always pass it as a command line argument or via an environment variable.
